@@ -7,25 +7,17 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    <Page.Resources>
-        <Style TargetType="TextBlock">
-            <Setter Property="FontSize" Value="42" />
-        
-        </Style>
-    </Page.Resources>
-    <Grid>
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
-            <Rectangle Width="200" Height="200" Fill= "Red" />
-            <StackPanel Orientation="Vertical">
-         <StackPanel Orientation="Horizontal">
-                <Rectangle Width="100" Height="100" Fill="Green" />
-                <
-            </StackPanel>
-            </StackPanel>
-        </StackPanel>
-             
-     
 
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height ="Auto" />
+            <RowDefinition Height ="*" />
+        </Grid.RowDefinitions>
+
+        <Rectangle Height ="100" Fill = "Beige" Grid.Row="0" />
+        <Rectangle Grid.Row="1"  Fill="SteelBlue" />
+        
+        
 
 
 
