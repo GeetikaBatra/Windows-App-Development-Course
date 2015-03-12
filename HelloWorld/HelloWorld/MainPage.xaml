@@ -9,14 +9,28 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Grid.RowDefinitions>
+        <!--<Grid.RowDefinitions>
             <RowDefinition Height ="Auto" />
             <RowDefinition Height ="*" />
         </Grid.RowDefinitions>
 
         <Rectangle Height ="100" Fill = "Beige" Grid.Row="0" />
-        <Rectangle Grid.Row="1"  Fill="SteelBlue" />
-        
+        <Rectangle Grid.Row="1"  Fill="SteelBlue" /> -->
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+            <Rectangle Width="200" Height="200" Fill="Red" />
+            <StackPanel Orientation="Vertical">
+                <Rectangle Width="100" Height="100" Fill="Blue" />
+                <StackPanel Orientation="Vertical">
+                    <Rectangle Width="100" Height="50" Fill="Gray" />
+                    <Rectangle Width="100" Height="50" Fill="Green" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Width="100" Height="100" Fill="Tomato" />
+                
+            </StackPanel>
+
+        </StackPanel>
         
 
 
