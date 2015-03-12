@@ -7,17 +7,26 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    <Page.Resources>
+        <SolidColorBrush x:Key="MyBrush" Color="Brown" />
+    </Page.Resources>
     <Grid>
-        <Button x:Name="myButton" Content="Button" HorizontalAlignment="Left" Margin="127,144,0,0" VerticalAlignment="Top" Click="myButton_Click"/>
-        <TextBox x:Name="myTextBox" HorizontalAlignment="Left" Margin="127,271,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" />
-        <TextBlock x:Name="myText" HorizontalAlignment="Left" Margin="127,385,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <DatePicker x:Name="myDatePicker" HorizontalAlignment="Left" Margin="66.999,454.661,0,0" VerticalAlignment="Top" Width="275.274" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        
+        
+        <Button x:Name="myButton" Content="Button" HorizontalAlignment="Left" Margin="70.75,144,0,0" VerticalAlignment="Top" Click="myButton_Click" Grid.Column="1"/>
+        <TextBox x:Name="myTextBox" HorizontalAlignment="Left" Margin="91.167,318,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBlock x:Name="myText" HorizontalAlignment="Left" Margin="70.75,385,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Grid.Column="1"/>
+        <DatePicker x:Name="myDatePicker" HorizontalAlignment="Left" Margin="37.833,237.994,0,0" VerticalAlignment="Top" Width="275.274" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.Column="1">
+            
             <DatePicker.RenderTransform>
                 <CompositeTransform Rotation="-0.365"/>
             </DatePicker.RenderTransform>
         </DatePicker>
-
+        <TextBlock Text="Umbilical" Foreground="{StaticResource MyBrush}" />
+        <TextBlock Text="Umbilical" Foreground="{StaticResource MyBrush}" />
+        <TextBlock HorizontalAlignment="Left" Margin="46,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" />
+        <TextBlock Text="Umbilical" Style="{StaticResource HeaderTextBlockStyle}" />
+            
 
     </Grid>
 </Page>
