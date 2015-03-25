@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>GEETIKA</Machine>
+    <WindowsUser>GeetikaBatra</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>f16313c7-8bad-46a2-bd02-e23090fa07f7</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Bin\Debug\Umbilical.dll">
+      <PackagePath>Umbilical.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v8.0\ExtensionSDKs\MSAdvertising\6.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.dll">
+      <PackagePath>Microsoft.Advertising.Mobile.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v8.0\ExtensionSDKs\MSAdvertising\6.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI.dll">
+      <PackagePath>Microsoft.Advertising.Mobile.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v8.1\Libraries\Microsoft.Phone.Controls.dll">
+      <PackagePath>Microsoft.Phone.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v8.0\ExtensionSDKs\MSAdvertising\6.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI.xml">
+      <PackagePath>Microsoft.Advertising.Mobile.UI.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Phone\v8.0\ExtensionSDKs\MSAdvertising\6.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.xml">
+      <PackagePath>Microsoft.Advertising.Mobile.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\fb.png">
+      <PackagePath>Assets\fb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\infologo.png">
+      <PackagePath>Assets\infologo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\youtube.png">
+      <PackagePath>Assets\youtube.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\Untitled-1.png">
+      <PackagePath>Assets\Untitled-1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\umbilical_310x150.png">
+      <PackagePath>umbilical_310x150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\U_170x170.png">
+      <PackagePath>U_170x170.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\U_71x71.png">
+      <PackagePath>U_71x71.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\U_99x99.png">
+      <PackagePath>U_99x99.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\GeetikaBatra\Documents\GitHub\Windows-App-Development-Course\Umbilical\Umbilical\Bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

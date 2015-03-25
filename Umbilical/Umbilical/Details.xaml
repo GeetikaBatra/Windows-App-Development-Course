@@ -1,0 +1,68 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Umbilical.Details"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+
+
+
+
+
+
+        <Grid Margin="10,10,-10,-273">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Umbilical;component/Assets/Panorama.png"/>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="273*"/>
+                <ColumnDefinition Width="163*"/>
+            </Grid.ColumnDefinitions>
+
+            <MediaElement x:Name="myMediaElement" Source="/Umbilical;component/Assets/dqbrwq.mp4" AutoPlay="True" Margin="7,220,1,348" Grid.ColumnSpan="2" />
+            <TextBlock x:Name="mothersBeat" HorizontalAlignment="Left" Margin="7,24,0,0" VerticalAlignment="Top" Height="48" Width="284" FontFamily="Segoe UI" FontSize="28" Text="Mother's Heart Beat" RenderTransformOrigin="0.47,0.018"  />
+
+            <TextBlock HorizontalAlignment="Left" Margin="10,72,0,0" TextWrapping="Wrap" Text="Fetal's Heart Beat" VerticalAlignment="Top" Width="251" Height="49" FontFamily="Segoe UI" FontSize="28"/>
+            <TextBlock x:Name="motherText" HorizontalAlignment="Left" Margin="296,33,0,0"  VerticalAlignment="Top" Height="48" Width="122" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2"/>
+            <TextBlock x:Name="temp" HorizontalAlignment="Left" Margin="10,126,0,0" TextWrapping="Wrap" Text="Temperature" VerticalAlignment="Top" Height="44" Width="223" FontFamily="Segoe UI" FontSize="28"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,175,0,0" TextWrapping="Wrap" Text="Contractions" VerticalAlignment="Top" Height="45" Width="198" FontFamily="Segoe UI" FontSize="28"/>
+            <TextBlock x:Name="fetalText" HorizontalAlignment="Left" Margin="296,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="112" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2"/>
+            <TextBlock x:Name="tempText" HorizontalAlignment="Right" Margin="0,135,105,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.293,-1.259" Height="44" Width="79" Grid.ColumnSpan="2"/>
+            <Button x:Name="startButton" Content="Pause" HorizontalAlignment="Left" Margin="34,651,0,0" VerticalAlignment="Top" Width="148" Click="startButton_Click"/>
+            <Button x:Name="stopButton" Content="Stop" HorizontalAlignment="Left" Margin="264,651,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.183,0.764" Width="157" Click="stop_Click" Grid.ColumnSpan="2"/>
+            <TextBlock x:Name="contraText" HorizontalAlignment="Left" Margin="296,184,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="45" Width="89" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2"/>
+
+
+
+
+        </Grid>
+
+
+
+
+    </Grid>
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" Mode="Minimized" Opacity="1.0" >
+
+
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="Sign out" />
+                <shell:ApplicationBarMenuItem Text="Refresh" />
+                <shell:ApplicationBarMenuItem Text="share" />
+            </shell:ApplicationBar.MenuItems>
+
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>
